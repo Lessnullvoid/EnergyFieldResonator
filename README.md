@@ -3,31 +3,32 @@ EnergyFieldResonator
 
 Programa que genera frecuencias de entre 90- 243 Hz. Relacionadas al estudio de "Electrophotonic Analysis"
 
-De acuerdo al estudio del Analisis Electrofotonico el cuerpo humano es capas de emitir energía radiante la cual se encuentre en 
-un rango entre los 380nm y 750nm (longitud de onda). La electofotonica ha encontrado 7 puntos principales para la emición de esta
-energía radiante, los cuales coinciden con los puntos conocidos como chakras dentro de las comosvisiones del hinduismo, la teosofía y 
-el gnosticismo.
+De acuerdo al estudio del Análisis Electrofotónico el cuerpo humano es capaz de emitir energía radiante la cual se encuentre en un rango entre los 380nm y 750nm (longitud de onda). La electrofotónica ha encontrado 7 puntos principales para la emisión de esta energía radiante ubicados en las siguientes Glándulas: 
 
-Chakra significa "rueda" en sánscrito. Los vedas utilizaron este término para denominar los centros energéticos del cuerpo humano,
-de acuerdo a estos sus funciones principales son:
+Corticoadrenales, 
+Gónadas,
+Páncreas, 
+Paraganglios supracardiacos / Timo, 
+Tiroides / paratiroides, 
+Pituitaria, 
+Pineal
 
-1_ revitalizar cada cuerpo aural o energético y con ello el cuerpo físico;
-2_ provocar el desarrollo de distintos aspectos de la autoconciencia, pues cada chakra está relacionado con una función 
-psicológica específica; 
-3_ transmitir energía entre los niveles aurales ya que cada capa progresiva existe en octavas de frecuencia siempre crecientes.
+Estos  coinciden con los puntos conocidos como chakras dentro de las cosmovisiones del hinduismo, la teosofía y el gnosticismo. Chakra significa "rueda" en sánscrito. Los vedas utilizaron este término para denominar los centros energéticos del cuerpo humano, de acuerdo a estos las funciones principales de los chakras son:
 
-Cuando el funcionamiento de los chakras es normal, cada uno de ellos estará abierto, girando en el sentido de las manecillas
-del reloj para metabolizar las energías particulares que necesita del campo de energía universal (energía que también se ha 
-llamado chi, prana u orgón). Cuando el chakra gira en sentido contrario a las agujas del reloj, la corriente fluye del centro 
-hacia fuera, con lo que interfiere el metabolismo. Por tanto, se dice que el chakra está cerrado o bloqueado.
+revitalizar el cuerpo aural o energético y con ello el cuerpo físico; 
+provocar el desarrollo de distintos aspectos de la autoconciencia, pues cada chakra está relacionado con una función psicológica específica; 
+transmitir energía entre los niveles aurales ya que cada capa progresiva existe en octavas de frecuencia siempre crecientes.
 
-Estos descubrimientos fueron realizados a partir de un tecnica de diagnóstico y el seguimiento del estado-informacional energía 
-humana y el análisis de las energías sutiles, aplicando visualizaciones de descarga de gas, basado en el método Kirlian.
+Cuando el funcionamiento de los chakras es normal, cada uno de ellos estará abierto, girando en el sentido de las manecillas del reloj para metabolizar las energías particulares que necesita del campo de energía universal (energía que también se ha llamado chi, prana u orgón). Cuando el chakra gira en sentido contrario a las agujas del reloj, la corriente fluye del centro hacia fuera, con lo que interfiere el metabolismo. Por tanto, se dice que el chakra está cerrado o bloqueado.
 
-En la historia de la ciencia, el desarrollo de un nuevo instrumento siempre ha dado lugar a una nueva comprensión de la realidad. Microscopio, telescopio, los rayos X, la cámara, láser, ordenador - sin estos instrumentos la ciencia moderna es impotente. Recientemente, un nuevo instrumento llegó a ser - un estado sólido visualización de descarga de gas computarizado (GDV) de la cámara para bio-electrografía. 
+Gracias a la Bioelectrografía logramos visualizar estos puntos energéticos a partir de un técnica de diagnóstico y seguimiento del estado informacional de la energía humana utilizando, visualización de descarga de gas computarizado (GDV), basadas en el método Kirlian. A partir de los datos arrojados por esta técnica ha sido posible agrupar  en rangos de longitud de onda y herzios cada una de las glándulas donde se ha encontrado esta energía radiante. 
 
-La técnica GDV se basa en el llamado efecto Kirlian, el nombre de Semion Kirlian y su esposa, que fue quien grabó y estudió imágenes electrofotónicas estimulados alrededor de varios objetos. 
+Utilizando esta información trabaje en el desarrollo de una aplicación programada en PureData la cual busca estimular cada uno de estos puntos utilizando el principio de resonancia. El patch está integrado por 7 osciladores, cada oscilador presenta un rango de variación en hertzios y en longitud de onda.
 
-Internacionalmente distinguido físico, el profesor Konstantin Korotkov de la Universidad Tecnológica de San Petersburgo en Rusia estudia el aspecto de información de emisiones electro-fotónica estimulados en todo el cuerpo humano y otros objetos durante varias décadas, a raíz de sus contactos personales con Semion Kirlian.
-
-
+Corticoadrenales: Nota B, NM(380-280)  Hz(179-243)
+Gónadas: Nota A, NM(430-390) Hz(158-174)
+Páncreas: Nota G, NM(480-460) Hz(142-148)
+Paraganglios: Nota F, NM(520-490)  Hz(128-139)
+Tiroides: Nota E, NM(580-550)  Hz(117-124)
+Pituitaria: Nota D, NM(640-590) Hz(106-115)
+Pineal: Nota C, NM(750-650) Hz(90-104)
